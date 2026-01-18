@@ -10,7 +10,7 @@ def new_el_context(
     enr="",
     service_name="",
     el_metrics_info=None,
-    ip_addr="",
+    sentinel_context=None,
 ):
     return struct(
         client_name=client_name,
@@ -24,5 +24,5 @@ def new_el_context(
         enr=enr,
         service_name=service_name,
         el_metrics_info=el_metrics_info,
-        ip_addr=ip_addr,
+        sentinel_context=sentinel_context,
     )
